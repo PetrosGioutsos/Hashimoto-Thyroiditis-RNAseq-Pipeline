@@ -143,11 +143,27 @@ if (length(missing_files) > 0) {
 
 
 
-# 4.Parameters (thresholds for the next scripts, to be decided)
+# 4. Parameters (thresholds for the next scripts)
+
+cfg <- list(
+  # DESeq2
+  padj_cutoff = 0.05,
+  lfc_cutoff = 1.0
+  )
 
 
 
 # 5. Color Palette (for the plots, to be decided)
+palette <- list(
+  condition = c(
+    healthy = "#2196F3",
+    disease = "#F44336"
+  ),
+  heatmap = colorRampPalette(rev(RColorBrewer::brewer.pal(11, "RdBu")))(100),
+  volcano_up = "#E74C3C",   # upregulated genes
+  volcano_down = "#3498DB",   # downregulated genes
+  volcano_ns = "grey70"     # non-significant genes
+)
 
 
 
@@ -185,7 +201,7 @@ if (!file.exists(tx2gene_path)) {
 
 
 # 7. Session info 
-
 session_info_path <- file.path(paths$results, "session_info.txt")
 writeLines(capture.output(sessionInfo()), session_info_path)
 message("Session info has been saved: ", session_info_path)
+
