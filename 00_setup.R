@@ -153,7 +153,7 @@ cfg <- list(
 
 
 
-# 5. Color Palette (for the plots, to be decided)
+# 5. Color Palette (for the plots)
 palette <- list(
   condition = c(
     healthy = "#2196F3",
@@ -170,7 +170,6 @@ palette <- list(
 # 6. Transcript to Gene mapping
 
 # Neccessary for tximport 
-
 # Converting Transcript IDs (as created by Salmon) to Gene IDs
 # It is only executed once. It is stored for future use (optimizing RAM usage)
 tx2gene_path <- file.path(paths$results, "tx2gene.rds")
@@ -204,4 +203,3 @@ if (!file.exists(tx2gene_path)) {
 session_info_path <- file.path(paths$results, "session_info.txt")
 writeLines(capture.output(sessionInfo()), session_info_path)
 message("Session info has been saved: ", session_info_path)
-
