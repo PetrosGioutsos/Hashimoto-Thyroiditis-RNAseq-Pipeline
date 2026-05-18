@@ -151,8 +151,8 @@ cfg <- list(
   lfc_cutoff = 1.0,
   
   # ORA / Pathway / GSEA
-  pvalue_cutoff  = 0.05,   # p-value για clusterProfiler
-  qvalue_cutoff  = 0.20   # q-value (FDR) για clusterProfiler
+  pvalue_cutoff  = 0.05,   # p-value
+  qvalue_cutoff  = 0.20   # q-value (FDR)
 )
 
 
