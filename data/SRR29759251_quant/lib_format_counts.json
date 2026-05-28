@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /home/petros/thesis/fastp_output/disease/SRR29759251_1_paired.fastq.gz, /home/petros/thesis/fastp_output/disease/SRR29759251_2_paired.fastq.gz]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 18464879,
+    "num_assigned_fragments": 18464879,
+    "num_frags_with_concordant_consistent_mappings": 19127543,
+    "num_frags_with_inconsistent_or_orphan_mappings": 424431,
+    "strand_mapping_bias": 0.49540936857389369,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 9475964,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 9651579,
+    "SF": 229628,
+    "SR": 194803,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

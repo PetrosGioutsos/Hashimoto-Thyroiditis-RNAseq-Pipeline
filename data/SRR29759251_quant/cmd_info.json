@@ -1,0 +1,14 @@
+{
+    "salmon_version": "1.11.4",
+    "index": "/home/petros/thesis/salmon_index",
+    "libType": "A",
+    "mates1": "/home/petros/thesis/fastp_output/disease/SRR29759251_1_paired.fastq.gz",
+    "mates2": "/home/petros/thesis/fastp_output/disease/SRR29759251_2_paired.fastq.gz",
+    "threads": "8",
+    "validateMappings": [],
+    "minScoreFraction": "0.65",
+    "gcBias": [],
+    "seqBias": [],
+    "output": "/home/petros/thesis/quants/SRR29759251_quant",
+    "auxDir": "aux_info"
+}

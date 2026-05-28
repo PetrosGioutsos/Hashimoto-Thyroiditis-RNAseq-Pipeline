@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /home/petros/thesis/fastp_output/healthy/SRR29759252_1_paired.fastq.gz, /home/petros/thesis/fastp_output/healthy/SRR29759252_2_paired.fastq.gz]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 23946639,
+    "num_assigned_fragments": 23946639,
+    "num_frags_with_concordant_consistent_mappings": 26887368,
+    "num_frags_with_inconsistent_or_orphan_mappings": 340458,
+    "strand_mapping_bias": 0.4972304838465409,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 13369219,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 13518149,
+    "SF": 187619,
+    "SR": 152839,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
