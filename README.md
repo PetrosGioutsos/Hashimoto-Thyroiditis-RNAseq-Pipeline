@@ -12,6 +12,3 @@ et al. (2025).
 If you use or reference the underlying biological data, please cite the original study: Zeng H, Chen Y, Hu T, et al. *Integrative Transcriptome and Machine Learning Analysis Uncovers Critical STAT3/GREM2 Signaling Mechanisms in Dexamethasone Treatment of Hashimoto's Thyroiditis.* ACS Omega. 2025;10(46):55377-55391.
 Published 2025 Nov 13.
 [10.1021/acsomega.5c04845](https://doi.org/10.1021/acsomega.5c04845)
-
-
-THIS REPOSITORY IS STILL UNDER DEVELOPMENT
